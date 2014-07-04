@@ -134,13 +134,18 @@
 ## XML Files (res/values)
 
  - values/colors.xml
-    1. `<color name="<THEME_NAME>_<COLOR_NAME>"><COLOR_VALUE></color>`
+ 
+    - `<color name="<THEME_NAME>_<COLOR_NAME>"><COLOR_VALUE></color>`
+    
         For example: 
-    ```
-    <color name=”holo_blue_dark”>#ff0099cc</color> 
-    <color name=”material_blue_500”>#5677fc</color>
-    ```
-    2. If the color is not in the theme: `<color name="<COLOR_NAME>"><COLOR_VALUE></color>`
+        ```
+        <color name=”holo_blue_dark”>#ff0099cc</color> 
+        <color name=”material_blue_500”>#5677fc</color>
+        ```
+
+    - If the color is not in the theme: 
+      
+      `<color name="<COLOR_NAME>"><COLOR_VALUE></color>`
 
  - values/strings.xml
     - `<string name="title_<TITLE_NAME>"><TITLE_VALUE></string>` - for ActionBar title
@@ -156,10 +161,13 @@
     - `<string name="popup_<MENU_ITEM_NAME>"><TEXT_VALUE></string>` - for popup menu item
     
  - values/string_arrays.xml
+
     `<string-array name="<ARRAY_NAME>_array">`
 
  - values/plurals.xml
+
     `<plurals name="<PLURALS_NAME>">`
+    
 <!-- values/attrs.xml values/dimens.xml values/styles.xml values/themes.xml values/ids.xml values/bools.xml -->
 
 ## XML Files (res/xml)

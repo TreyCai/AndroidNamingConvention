@@ -4,15 +4,15 @@
 ## Package Structure
 
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>` - contain Application class **only**
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.activities` - contain all activities
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.adapters` - contain all adapters
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.activity` - contain all activities
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.adapter` - contain all adapters
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.api` - contain all network related classes
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.fragments` - contain all fragments 
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.models` - contain all models 
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.providers` - contain all database related classes
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.services` - contain all services 
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.utils` - contain all utility classes
- - `com.<COMPANY_NAME>.<PRODUCT_NAME>.widgets`- contain all custom views
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.fragment` - contain all fragments 
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.model` - contain all models 
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.provider` - contain all database related classes
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.service` - contain all services 
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.util` - contain all utility classes
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.widget`- contain all custom views
 
 ## Naming Convention for Classes
 

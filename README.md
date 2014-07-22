@@ -10,6 +10,7 @@
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.fragment` - contain all fragments 
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.model` - contain all models 
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.provider` - contain all database related classes
+ - `com.<COMPANY_NAME>.<PRODUCT_NAME>.receiver` - contain all broadcast receiver classes
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.service` - contain all services 
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.util` - contain all utility classes
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.widget`- contain all custom views
@@ -23,6 +24,7 @@
  - `<NAME>.java` - for model class
  - `<NAME>Provider.java` - for content provider class
  - `<NAME>Service.java` - for service class
+ - `<NAME>Receiver.java` - for broadcast receiver class
  - `<NAME>Utils.java` - for utility class
  - `<NAME>.java` - for custom view class
 

@@ -152,12 +152,15 @@
  - values/strings.xml
     - `<string name="title_<TITLE_NAME>"><TITLE_VALUE></string>` - for ActionBar title
     - `<string name="action_<ACTION_BUTTON_TEXT>"><TEXT_VALUE></string>` - for ActionBar button text
+    - `<string name="tab_<ACTION_TAB_TEXT>"><TEXT_VALUE></string>` - for ActionBar.Tab text
     - `<string name="btn_<BUTTON_TEXT>"><TEXT_VALUE></string>`- for button
+    - `<string name="empty_<VIEW_NAME>"><EMPTY_VALUE></string>` - for empty view
     - `<string name="hint_<EDITTEXT_NAME>"><HINT_VALUE></string>`- for the hint of EditText/AutoCompleteTextView
     - `<string name="label_<TEXTVIEW_NAME>"><TEXT_VALUE></string>`- for static TextView
     - `<string name="toast_<TOAST_NAME>"><TOAST_VALUE></string>` - for toast
     - `<string name="dialog_title_<DIALOG_NAME>"><TITLE_VALUE></string>`- for dialog
     - `<string name="dialog_msg_<DIALOG_NAME>"><MSG_VALUE></string>` - for dialog
+    - `<string name="dialog_action_<ACTION_NAME>"><ACTION_NAME></string>` - for dialog button
     - `<string name="msg_<MESSAGE_NAME>"><MSG_VALUE></string>` - for Log or some other stuff
     - `<string name="contextual_<MENU_ITEM_NAME>"><TEXT_VALUE></string>`- for contextual menu item
     - `<string name="popup_<MENU_ITEM_NAME>"><TEXT_VALUE></string>` - for popup menu item

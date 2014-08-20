@@ -3,6 +3,9 @@
 
 ## Package Structure
 
+> See this [Package by feature, not layer][1] 
+
+<!--
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>` - contain Application class **only**
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.activity` - contain all activities
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.adapter` - contain all adapters
@@ -14,6 +17,7 @@
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.service` - contain all services 
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.util` - contain all utility classes
  - `com.<COMPANY_NAME>.<PRODUCT_NAME>.widget`- contain all custom views
+-->
 
 ## Naming Convention for Classes
 
@@ -86,7 +90,7 @@
  - `vsw` - ViewSwitcher
 
 ## Naming Convention for Image Files
-> See this [<i class="icon-share"></i> Android-Cheatsheet-For-Graphic-Designers#Naming Convention][1]
+> See this [Android-Cheatsheet-For-Graphic-Designers#Naming Convention][2]
  
 ## XML Files (res/anim)
 
@@ -179,4 +183,5 @@
 
  - `appwidget_<APPWIDGET_NAME>` - for app widget provider
 
-  [1]:http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/#naming-conventions
+  [1]:http://www.javapractices.com/topic/TopicAction.do;jsessionid=0BF4844350780B6F55476E1137FF4893?Id=205
+  [2]:http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/#naming-conventions
